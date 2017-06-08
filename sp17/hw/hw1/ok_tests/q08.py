@@ -8,7 +8,7 @@ test = {
           'code': r"""
           >>> np.allclose(lines_to_image(test_lines), test_image)
           True
-
+          
           >>> image1.shape == (240, 215, 3)
           True
           >>> image1.dtype == np.uint8
